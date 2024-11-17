@@ -8,6 +8,7 @@
    filter: blur(1.5px); 
    width: 5vw; 
    height: auto;
+   position: relative;
 }
 
 .conteudo{
@@ -20,6 +21,8 @@
     position:relative;
     left: 40vw;
     top: 3vh;
-
-    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
