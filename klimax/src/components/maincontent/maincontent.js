@@ -3,6 +3,7 @@ import Title from "./title/title";
 import Description from "./description/description";
 import SearchBar from "./searchbar/searchbar";
 import RandomFilmsButton from "./buttons/randomfilmsButton/randomfilmsButton";
+import FilteredFilmsButton from "./buttons/filteredfilmsButton/filteredfilmsButton";
 
 function Maincontent() {
     return (
@@ -11,6 +12,7 @@ function Maincontent() {
        <SearchBar/>
        <Description/>
        <RandomFilmsButton/>
+       <FilteredFilmsButton/>
       </div>
     );
   }
